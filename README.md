@@ -3,7 +3,8 @@
 
 WebViewj初始化，加载本地Html文件
 
-  private static final String SETUP_HTML = "file:///android_asset/editor.html";
+  
+    private static final String SETUP_HTML = "file:///android_asset/editor.html";
     private static final String CALLBACK_SCHEME = "re-callback://";
     private static final String STATE_SCHEME = "re-state://";
     private boolean isReady = false;
@@ -34,5 +35,9 @@ WebViewj初始化，加载本地Html文件
 
         applyAttributes(context, attrs);
     }
+    
+    [!image]()
+    
+    
     
    
